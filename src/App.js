@@ -5,6 +5,7 @@ import {
 import './App.css';
 import Calculator from './component/Calculator';
 import Footer from './component/Footer';
+import Tabs from './component/Tabs';
 import Home from './pages/Home';
 import Quote from './pages/Quote';
 
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <>
         <Router>
+          <Tabs />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
