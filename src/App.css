@@ -9,6 +9,10 @@ body {
   justify-content: space-around;
 }
 
+.main-main {
+  height: 80vh;
+}
+
 .calculator-wrap {
   border: 1px solid black;
   width: 648px;
@@ -83,7 +87,6 @@ body {
   padding-bottom: 20px;
   color: #fff;
   font-weight: bold;
-  position: absolute;
   bottom: 0;
   text-align: center;
 }
